@@ -10,10 +10,10 @@ INCLUDE_DIRECTORIES(
    ${CMAKE_CURRENT_BINARY_DIR}
 )
 
-SET(EXECUTABLE_OUTPUT_PATH ${bmlcuda}/bin 
+SET(EXECUTABLE_OUTPUT_PATH ../bin 
 CACHE INTERNAL "Single output directory for building all executables.")
 
-SET(LIBRARY_OUTPUT_PATH ${bmlcuda}/bin 
+SET(LIBRARY_OUTPUT_PATH ../bin 
 CACHE INTERNAL "Single output directory for building all libraries.")
 
 ADD_SUBDIRECTORY( src )
